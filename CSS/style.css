@@ -1,0 +1,55 @@
+body {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+.cheked {
+    text-decoration: line-through;
+    color: red !important;
+    border:2px solid red !important;
+}
+.inpt {
+    width: 80%;
+    border: none;
+    padding: 12px;
+    font-size: 4rem;
+    outline: none;
+}
+#list {
+    font-size: 1.6rem;
+    list-style: none;
+    text-align: start;
+}  
+#list li {
+    color: #5B9A8B;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid #5B9A8B;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 6 60;
+    margin: 8px;
+    transition: 1s;
+} 
+#list li {
+    cursor: pointer;
+} 
+#list li span {
+    font-size: 2rem;
+    color: #5B9A8B;
+    padding: 0 14px;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+#list li span:hover {
+    font-size: 2rem;
+    color: #ff0000;
+} 
+
+.clock {
+    color: #5B9A8B;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 7px;
+    border:2px solid #5B9A8B;
+    border-radius: 10px;
+}
